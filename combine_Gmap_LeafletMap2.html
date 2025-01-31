@@ -56,6 +56,7 @@
         map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: 25.03416068163684, lng: 121.56454962636319 },
           zoom: 12,
+          gestureHandling: "greedy",
         });
 
         // Load data and set markers
